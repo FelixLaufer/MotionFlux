@@ -1,6 +1,6 @@
 #include "MotionFlux.h"
 
-#include "math/ButterworthLP.h"
+#include "ButterworthLP.h"
 
 MotionFlux::MotionFlux(const Skeleton& skeleton, const std::vector<Vector>& animation, const ScalarType samplingFreq)
   : skeleton_(skeleton)
